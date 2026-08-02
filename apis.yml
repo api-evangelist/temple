@@ -1,8 +1,24 @@
 aid: temple
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/temple.png
 name: Temple
-description: 'Temple is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Temple Capital is a cryptocurrency trading firm founded in 2018 that specializes in the
+  algorithmic trading of liquid digital assets using machine learning technology. The firm has a seven-year
+  live fund track record and manages over $75 million in assets on behalf of a diversified investor base,
+  supported by a team of roughly 25 investment professionals across quantitative research, engineering,
+  and operations. Backed by investors including Pantera Capital and Bain Capital, Temple Capital operates
+  as a quantitative crypto hedge fund and does not currently publish a first-party developer API; its
+  temple.capital marketing site is Wix-hosted and exposes a generic Wix Site MCP endpoint for AI agents.'
 url: https://raw.githubusercontent.com/api-evangelist/temple/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- Cryptocurrency
+- Digital Assets
+- Hedge Fund
+- Algorithmic Trading
+- Quantitative Trading
+- Machine Learning
+- Asset Management
+- Investment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/temple-domain-security.yml
 - type: Website
   url: https://www.temple.capital/
+- type: LLMsTxt
+  url: llms/temple-llms.txt
+- type: MCPServer
+  url: mcp/temple-mcp.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
