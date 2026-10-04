@@ -48,7 +48,7 @@ tags:
 - Hedge Funds
 - Algorithmic Trading
 - Quantitative Trading
-- Machine-Learning
+- Machine Learning
 - Asset Management
 - Investment
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Machine Learning
 - Asset Management
 - Investment
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
