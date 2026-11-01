@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Temple is a company surfaced as a portfolio company of pantera-capital and added to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment pipeline.
+Temple Capital is a cryptocurrency trading firm founded in 2018 that specializes in the algorithmic trading of liquid digital assets using machine learning technology. The firm has a seven-year live fund track record and manages over $75 million in assets on behalf of a diversified investor base, supported by a team of roughly 25 investment professionals across quantitative research, engineering, and operations. Backed by investors including Pantera Capital and Bain Capital, Temple Capital operates as a quantitative crypto hedge fund and does not currently publish a first-party developer API; its temple.capital marketing site is Wix-hosted and exposes a generic Wix Site MCP endpoint for AI agents.
 
-Backed by: pantera-capital — https://www.temple.capital/
+**Areas:** Company · Cryptocurrency · Digital Assets · Hedge Funds · Algorithmic Trading · Quantitative Trading · Machine Learning · Asset Management · Investment
+
+## Temple on APIs.io
+
+Everything profiled for Temple is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/temple/](https://apis.io/providers/temple/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [temple-capital-site](https://apis.io/servers/temple/temple-capital-site/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Temple Domain Security](https://apis.io/security/temple/temple-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.temple.capital/)
+
+## API Evangelist rating
+
+**Kin Score 3.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 2.2** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | platform (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.2** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/temple/](https://apis.io/providers/temple/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Temple: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/temple/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
